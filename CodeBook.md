@@ -1,72 +1,72 @@
 ####DATA Dictionary - Samsung Phone (Human Activity Recognition) - 2012
 		
-Variable Name	|	Variable Label
+Variable Name	|Type|	Variable Label
 ----------------|--------------------------------------------------
-subjectID 	|	unique identifier of thirty people from 1-30		|
-activity	|	activity when the data was gathered for each variable: walking, walking downstairs, walking upstairs, standing, laying
-tBodyAccMeanX	|	time of body acceleration mean of X
-tBodyAccMeanY	|	time of body acceleration mean of Y
-tBodyAccMeanZ	|	time of body acceleration mean of Z
-tBodyAccStdX	|	time of body acceleration standard deviation of X
-tBodyAccStdY	|	time of body acceleration standard deviation of Y
-tBodyAccStdZ	|	time of body acceleration standard deviation of Z
-tGravityAccMeanX|	time of gravity acceleration mean of X
-tGravityAccMeanY|	time of gravity acceleration mean of Y
-tGravityAccMeanZ|	time of gravity acceleration mean of Z
-tGravityAccStdX	|	time of gravity acceleration standard deviation of X
-tGravityAccStdY	|	time of gravity acceleration standard deviation of Y
-tGravityAccStdZ	|	time of gravity acceleration standard deviation of Z
-tBodyAccJerkMeanX|	time of body acceleration jerk mean of X
-tBodyAccJerkMeanY|	time of body acceleration jerk mean of Y
-tBodyAccJerkMeanZ|	time of body acceleration jerk mean of Z
-tBodyAccJerkStdX|	time of body acceleration jerk standard deviation of X
-tBodyAccJerkStdY|	time of body acceleration jerk standard deviation of Y
-tBodyAccJerkStdZ|	time of body acceleration jerk standard deviation of Z
-tBodyGyroMeanX	|	time of body gyroscope mean of X
-tBodyGyroMeanY	|	time of body gyroscope mean of Y
-tBodyGyroMeanZ|	time of body gyroscope mean of Z
-tBodyGyroStdX|		time of body gyroscope standard deviation of X
-tBodyGyroStdY|		time of body gyroscope standard deviation of Y
-tBodyGyroStdZ|		time of body gyroscope standard deviation of Z
-tBodyGyroJerkMeanX|	time of body gyroscope jerk mean of X
-tBodyGyroJerkMeanY|	time of body gyroscope jerk mean of Y
-tBodyGyroJerkMeanZ|	time of body gyroscope jerk mean of Z
-tBodyGyroJerkStdX|	time of body gyroscope jerk standard deviation of X
-tBodyGyroJerkStdY|	time of body gyroscope jerk standard deviation of Y
-tBodyGyroJerkStdZ|	time of body gyroscope jerk standard deviation of Z
-tBodyAccMagMean	|	time of body accelaration magnitude mean 
-tBodyAccMagStd	|	time of body accelaration magnitude standard deviation
-tGravityAccMagMean|	time of gravity accelaration magnitude mean 
-tGravityAccMagStd|	time of gravity accelaration magnitude standard deviation
-tBodyAccJerkMagMean|	time of body accelaration jerk magnitude mean 
-tBodyAccJerkMagStd|	time of body accelaration jerk magnitude standard deviation
-tBodyGyroMagMean|	time of body gyroscope magnitude mean 
-tBodyGyroMagStd	|	time of body gyroscope magnitude standard deviation
-tBodyGyroJerkMagMean|	time of body gyroscope jerk magnitude mean 
-tBodyGyroJerkMagStd|	time of body gyroscope jerk magnitude standard deviation 
-fBodyAccMeanX	|	fast fourier transformation of body acceleration mean of X
-fBodyAccMeanY	|	fast fourier transformation of body acceleration mean of Y
-fBodyAccMeanZ	|	fast fourier transformation of body acceleration mean frequency of X
-fBodyAccMeanFreqY|	fast fourier transformation of body acceleration mean frequency of X
-fBodyAccMeanFreqZ|	fast fourier transformation of body acceleration mean frequency of X
-fBodyAccJerkMeanX|	fast fourier transformation of body acceleration jerk mean  of X
-fBodyAccJerkMeanY|	fast fourier transformation of body acceleration jerk mean  of Y
-fBodyAccJerkMeanZ|	fast fourier transformation of body acceleration jerk mean  of Z
-fBodyAccJerkStdX|	fast fourier transformation of body acceleration jerk standard deviation  of X
-fBodyAccJerkStd|	fast fourier transformation of body acceleration jerk standard deviation  of Y
-fBodyAccJerkStdZ|	fast fourier transformation of body acceleration jerk standard deviation  of Z
-fBodyAccJerkMeanFreqX|	fast fourier transformation of body acceleration jerk mean  frequency of X
-fBodyAccJerkMeanFreqY|	fast fourier transformation of body acceleration jerk mean  frequency of Y
-fBodyAccJerkMeanFreqZ|	fast fourier transformation of body acceleration jerk mean  frequency of Z
-fBodyGyroMeanX	|	fast fourier transformation of body gyroscope jerk mean  of X
-fBodyGyroMeanY	|	fast fourier transformation of body gyroscope jerk mean  of Y
-fBodyGyroMeanZ	|	fast fourier transformation of body gyroscope jerk mean  of Z
-fBodyGyroStdX	|	fast fourier transformation of body gyroscope  standard deviation  of X
-fBodyGyroStdY	|	fast fourier transformation of body gyroscope  standard deviation  of Y
-fBodyGyroStdZ	|	fast fourier transformation of body gyroscope  standard deviation  of Z
-fBodyGyroMeanFreqX|	fast fourier transformation of body  gyroscope mean frequency  of X
-fBodyGyroMeanFreqY|	fast fourier transformation of body  gyroscope mean frequency  of Y
-fBodyGyroMeanFreqZ|	fast fourier transformation of body  gyroscope mean frequency  of Z
-fBodyAccMagMean	|	fast fourier transformation of body acceleration magnitude mean  of X
-fBodyAccMagStd	|	fast fourier transformation of body acceleration magnitude standard deviation  of X
-fBodyAccMagMeanFreq|	fast fourier transformation of body acceleration magnitude mean frequency of X
+subjectID 	|int|	unique identifier of thirty people from 1-30		|
+activity	|factor|	activity when the data was gathered for each variable: walking, walking downstairs, walking upstairs, standing, laying
+tBodyAccMeanX	|num|	time of body acceleration mean of X
+tBodyAccMeanY	|num|	time of body acceleration mean of Y
+tBodyAccMeanZ	|num|	time of body acceleration mean of Z
+tBodyAccStdX	|num|	time of body acceleration standard deviation of X
+tBodyAccStdY	|num|	time of body acceleration standard deviation of Y
+tBodyAccStdZ	|num|	time of body acceleration standard deviation of Z
+tGravityAccMeanX|num|	time of gravity acceleration mean of X
+tGravityAccMeanY|num|	time of gravity acceleration mean of Y
+tGravityAccMeanZ|num|	time of gravity acceleration mean of Z
+tGravityAccStdX	|num|	time of gravity acceleration standard deviation of X
+tGravityAccStdY	|num|	time of gravity acceleration standard deviation of Y
+tGravityAccStdZ	|num|	time of gravity acceleration standard deviation of Z
+tBodyAccJerkMeanX|num|	time of body acceleration jerk mean of X
+tBodyAccJerkMeanY|num|	time of body acceleration jerk mean of Y
+tBodyAccJerkMeanZ|num|	time of body acceleration jerk mean of Z
+tBodyAccJerkStdX|num|	time of body acceleration jerk standard deviation of X
+tBodyAccJerkStdY|num|	time of body acceleration jerk standard deviation of Y
+tBodyAccJerkStdZ|num|	time of body acceleration jerk standard deviation of Z
+tBodyGyroMeanX	|num|	time of body gyroscope mean of X
+tBodyGyroMeanY	|num|	time of body gyroscope mean of Y
+tBodyGyroMeanZ|num|	time of body gyroscope mean of Z
+tBodyGyroStdX|	num|	time of body gyroscope standard deviation of X
+tBodyGyroStdY|	num|	time of body gyroscope standard deviation of Y
+tBodyGyroStdZ|	num|	time of body gyroscope standard deviation of Z
+tBodyGyroJerkMeanX|num|	time of body gyroscope jerk mean of X
+tBodyGyroJerkMeanY|num|	time of body gyroscope jerk mean of Y
+tBodyGyroJerkMeanZ|num|	time of body gyroscope jerk mean of Z
+tBodyGyroJerkStdX|num|	time of body gyroscope jerk standard deviation of X
+tBodyGyroJerkStdY|num|	time of body gyroscope jerk standard deviation of Y
+tBodyGyroJerkStdZ|num|	time of body gyroscope jerk standard deviation of Z
+tBodyAccMagMean	|num|	time of body accelaration magnitude mean 
+tBodyAccMagStd	|num|	time of body accelaration magnitude standard deviation
+tGravityAccMagMean|num|	time of gravity accelaration magnitude mean 
+tGravityAccMagStd|num|	time of gravity accelaration magnitude standard deviation
+tBodyAccJerkMagMean|num|	time of body accelaration jerk magnitude mean 
+tBodyAccJerkMagStd|	num|time of body accelaration jerk magnitude standard deviation
+tBodyGyroMagMean|num|	time of body gyroscope magnitude mean 
+tBodyGyroMagStd	|num|	time of body gyroscope magnitude standard deviation
+tBodyGyroJerkMagMean|num|	time of body gyroscope jerk magnitude mean 
+tBodyGyroJerkMagStd|num|	time of body gyroscope jerk magnitude standard deviation 
+fBodyAccMeanX	|num|	fast fourier transformation of body acceleration mean of X
+fBodyAccMeanY	|num|	fast fourier transformation of body acceleration mean of Y
+fBodyAccMeanZ	|num|	fast fourier transformation of body acceleration mean frequency of X
+fBodyAccMeanFreqY|num|	fast fourier transformation of body acceleration mean frequency of X
+fBodyAccMeanFreqZ|num|	fast fourier transformation of body acceleration mean frequency of X
+fBodyAccJerkMeanX|num|	fast fourier transformation of body acceleration jerk mean  of X
+fBodyAccJerkMeanY|num|	fast fourier transformation of body acceleration jerk mean  of Y
+fBodyAccJerkMeanZ|num|	fast fourier transformation of body acceleration jerk mean  of Z
+fBodyAccJerkStdX|num|	fast fourier transformation of body acceleration jerk standard deviation  of X
+fBodyAccJerkStd|num|	fast fourier transformation of body acceleration jerk standard deviation  of Y
+fBodyAccJerkStdZ|num|	fast fourier transformation of body acceleration jerk standard deviation  of Z
+fBodyAccJerkMeanFreqX|num|	fast fourier transformation of body acceleration jerk mean  frequency of X
+fBodyAccJerkMeanFreqY|num|	fast fourier transformation of body acceleration jerk mean  frequency of Y
+fBodyAccJerkMeanFreqZ|num|	fast fourier transformation of body acceleration jerk mean  frequency of Z
+fBodyGyroMeanX	|num|	fast fourier transformation of body gyroscope jerk mean  of X
+fBodyGyroMeanY	|num|	fast fourier transformation of body gyroscope jerk mean  of Y
+fBodyGyroMeanZ	|num|	fast fourier transformation of body gyroscope jerk mean  of Z
+fBodyGyroStdX	|num|	fast fourier transformation of body gyroscope  standard deviation  of X
+fBodyGyroStdY	|num|	fast fourier transformation of body gyroscope  standard deviation  of Y
+fBodyGyroStdZ	|num|	fast fourier transformation of body gyroscope  standard deviation  of Z
+fBodyGyroMeanFreqX|num|	fast fourier transformation of body  gyroscope mean frequency  of X
+fBodyGyroMeanFreqY|num|	fast fourier transformation of body  gyroscope mean frequency  of Y
+fBodyGyroMeanFreqZ|num|	fast fourier transformation of body  gyroscope mean frequency  of Z
+fBodyAccMagMean	|num|	fast fourier transformation of body acceleration magnitude mean  of X
+fBodyAccMagStd	|num|	fast fourier transformation of body acceleration magnitude standard deviation  of X
+fBodyAccMagMeanFreq|num|	fast fourier transformation of body acceleration magnitude mean frequency of X
