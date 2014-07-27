@@ -3,7 +3,7 @@ coursera_getting_cleaning_data
 
 This repository has the information for the end of class project for Coursera's Getting and Cleaning Data course and the course project.  Getting and Cleaning Data is the third class in a series of 9 classes in the specialization.  All the analysis is done in R programming.
 
-* Project 1: Data is from Human Activity Recognition Using Smartphones Dataset
+* Data Info: Data is from Human Activity Recognition Using Smartphones Dataset
 Version 1.0. Original data can be found at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   * Data provided by : 
     * Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
