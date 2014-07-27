@@ -2,8 +2,7 @@
 		
 Variable Name	|	Variable Label
 ----------------|--------------------------------------------------
-subjectID 	|	unique identifier of thirty people from 1-30
-		|
+subjectID 	|	unique identifier of thirty people from 1-30		|
 activity	|	"activity when the data was gathered for each variable: walking, walking downstairs, walking upstairs, standing, laying"
 tBodyAccMeanX	|	time of body acceleration mean of X
 tBodyAccMeanY	|	time of body acceleration mean of Y
