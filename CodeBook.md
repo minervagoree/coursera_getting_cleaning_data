@@ -1,7 +1,7 @@
 ####DATA Dictionary - Samsung Phone (Human Activity Recognition) - 2012
 		
 Variable Name	|Type|	Variable Label
-----------------|--------------------------------------------------
+----------------|----|----------------------------------------------
 subjectID 	|int|	unique identifier of thirty people from 1-30		|
 activity	|factor|	activity when the data was gathered for each variable: walking, walking downstairs, walking upstairs, standing, laying
 tBodyAccMeanX	|num|	time of body acceleration mean of X
