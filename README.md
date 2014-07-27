@@ -8,5 +8,17 @@ This repository has the information for the end of class project for Coursera's 
   * In this repository you will find a run_analysis.R file where by running the code you will get a tidy data file of Samsung info
   * The last deliverable for this project is a codebook.  You can find a CodeBook.md markdown file where I list all the variables in the tidy list.
 * Steps to run the run_analysis.R file. 
-  *Step 1. Original data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  Read in train and test data to have it handy for data manipulation.
-  *Step 2. 
+  * Step 1. Original data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  Read in train and test data to have it handy for data manipulation.
+  * Step 2. Create subject data frame with subjects used in the testing set data.  We will build the data with subjectID, ActivityID, and Activity.
+  * Step 3. Step 3: Create subject data from with subjects used in the training set data.  We will build the data with subjectID, ActivityID, and Activity.
+  * Step 4.  Merge the Subject Train and Test data
+  * Step 5.  Clean up the features variables to Camel style to be compliant with R naming convention.
+  * Step 6. Merge test and train data.
+  * Step 7. Add feature labels to our phoneData.
+  * Step 8. Extract columns that contain data for standard deviation (Std) and Mean.
+  * Step 9. Merge the subject data with the phone data
+  * Step 10. Save First Tidy Data set to a .txt file
+  * Step 11. Create a second tidy data set with only subjectID, Activity, and average of each activity and each subject.
+  * Step 12. Save a file copy of your final tidy data set in csv and txt
+* The results you should get by following the above steps is tidy data set of 180 rows by 68 columns that include the Subject and the activity of each record.
+
