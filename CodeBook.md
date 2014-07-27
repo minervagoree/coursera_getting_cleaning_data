@@ -1,5 +1,5 @@
-                    DATA Dictionary - Samsung Phone (Human Activity Recognition) - 2012
-		==========================================================================
+####DATA Dictionary - Samsung Phone (Human Activity Recognition) - 2012
+		
 Variable Name	|	Variable Label
 ----------------|--------------------------------------------------
 subjectID 	|	unique identifier of thirty people from 1-30
