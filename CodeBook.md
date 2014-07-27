@@ -1,4 +1,7 @@
-####DATA Dictionary - Samsung Phone (Human Activity Recognition) - 2012
+#DATA Dictionary
+##Samsung Phone (Human Activity Recognition) - 2012
+
+The Samsung tidy data set has 68 variables.  The variable names, type and short description are found below.
 		
 Variable Name	|Type|	Variable Label
 ----------------|----|----------------------------------------------
