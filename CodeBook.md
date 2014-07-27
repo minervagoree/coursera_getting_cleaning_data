@@ -2,6 +2,7 @@
 ##Samsung Phone (Human Activity Recognition) - 2012
 
 The Samsung tidy data set has 68 variables.  The variable names, type and short description are found below. You can find the original data set at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Variable Name	|Type|	Variable Label
 ----------------|----|----------------------------------------------
 subjectID 	|int|	unique identifier of thirty people from 1-30		|
